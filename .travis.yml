@@ -19,6 +19,11 @@ addons:
   packages:
   - g++-4.8
 
+cache:
+  - bundler: true
+  - directories:
+    - /home/travis/.rvm/
+
 rvm:
   - 2.2.10
   - 2.3.8
